@@ -18,14 +18,14 @@ let media = (Number(primeiranota) + Number(segundanota) + Number(terceiranota) +
 console.log ("Media: " + media);
 
 if (media < 5) {
-    console.log("Status: Reprovado");
+    console.log("Resultado: Reprovado");
     alert("Sua media: " + media + "\nResultado: Reprovado")
 }
 
-if (media >= 5 && media <= 6) {
-    console.log("Status: Recuperação");
+else if (media >= 5 && media <= 6) {
+    console.log("Resultado: Recuperação");
     alert("Sua media: " + media + "\nResultado: Recuperação")
 } else {
-    console.log("Status: Aprovado");
+    console.log("Resultado: Aprovado");
     alert("Sua media: " + media + "\nResultado: Aprovado")
 }
